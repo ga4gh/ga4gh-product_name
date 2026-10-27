@@ -1,7 +1,7 @@
 # GA4GH product documentation templates
 
 A starter set of documentation templates for GA4GH technical products, provided in three equivalent formats.
-Copy the `docs/` folder for your chosen format into your product repository and fill in the placeholders.
+Delete the folders that re not for your chosen format and fill in the placeholders.
 
 ## Layout
 
