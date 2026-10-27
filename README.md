@@ -97,7 +97,12 @@ Instructions for contributing, raising issues, or submitting pull requests.
 ---
 
 ## License
-Include license details (MIT, Apache 2.0, etc.) or a link to your license file.
+Within the licenses folder are required licenses for various product types. delete as necessary and retain the relevant license.
+
+---
+
+## Documentation
+Within the docs folder is are templates for three different formats for docs generation. please delete the other two that you are not using and use the templates provided to structure your documentation.
 
 ---
 
