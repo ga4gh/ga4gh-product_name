@@ -1,0 +1,28 @@
+site_name: "{{PRODUCT_NAME}} documentation"
+repo_url: "{{REPO_URL}}"
+docs_dir: docs
+theme:
+  name: material   # pip install mkdocs-material
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.tasklist
+nav:
+  - Home: index.md
+  - "Overview": overview.md
+  - "Getting started": getting-started.md
+  - "Specification": specification/index.md
+  - "Data model": specification/data-model.md
+  - "API reference": specification/api-reference.md
+  - "Security": specification/security.md
+  - "Implementer's guide": implementation/implementers-guide.md
+  - "Implementations": implementation/implementations.md
+  - "Examples": implementation/examples.md
+  - "Compliance and conformance testing": conformance/compliance.md
+  - "Service info": conformance/service-info.md
+  - "Versioning and deprecation": governance/versioning.md
+  - "Changelog": governance/changelog.md
+  - "Product approval record": governance/product-approval.md
+  - "Decision record template": governance/decision-records/adr-template.md
+  - "Contributing": contributing.md
+  - "Glossary": glossary.md

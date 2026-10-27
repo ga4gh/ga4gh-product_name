@@ -1,0 +1,57 @@
+= {{PRODUCT_NAME}} documentation
+:product: {{PRODUCT_NAME}}
+:spec-version: {{SPEC_VERSION}}
+:status: {{STATUS}}
+:last-reviewed: {{YYYY-MM-DD}}
+:owners: {{OWNERS}}
+:toc:
+
+////
+TEMPLATE GUIDANCE: Keep this page short. It orients readers and routes them to the right page; detail lives elsewhere.
+////
+
+{{PRODUCT_NAME}} ({{PRODUCT_SHORT_NAME}}) is a GA4GH standard for {{ONE_LINE_PURPOSE}}. This site contains the normative specification, guidance for implementers and the governance record for the product.
+
+== At a glance
+
+[cols="2*",options="header"]
+|===
+|Item |Value
+|Current version |{{SPEC_VERSION}}
+|Status |{{STATUS}}
+|Work Stream |{{WORK_STREAM}}
+|Repository |{{REPO_URL}}
+|Licence |{{LICENSE}}
+|Contact |{{CONTACT_EMAIL}}
+|===
+
+== Where to start
+
+[cols="2*",options="header"]
+|===
+|If you are... |Start with
+|Evaluating whether the standard fits your use case |Overview
+|Building a server or client |Getting started, then Specification
+|Deploying or operating a service |Implementer's guide and Security
+|Proposing a change |Contributing
+|===
+
+== Contents
+
+* xref:overview.adoc[Overview]
+* xref:getting-started.adoc[Getting started]
+* xref:specification/index.adoc[Specification]
+* xref:specification/data-model.adoc[Data model]
+* xref:specification/api-reference.adoc[API reference]
+* xref:specification/security.adoc[Security]
+* xref:implementation/implementers-guide.adoc[Implementer's guide]
+* xref:implementation/implementations.adoc[Implementations]
+* xref:implementation/examples.adoc[Examples]
+* xref:conformance/compliance.adoc[Compliance and conformance testing]
+* xref:conformance/service-info.adoc[Service info]
+* xref:governance/versioning.adoc[Versioning and deprecation]
+* xref:governance/changelog.adoc[Changelog]
+* xref:governance/product-approval.adoc[Product approval record]
+* xref:governance/decision-records/adr-template.adoc[Decision record template]
+* xref:contributing.adoc[Contributing]
+* xref:glossary.adoc[Glossary]

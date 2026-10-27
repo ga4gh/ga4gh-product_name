@@ -1,0 +1,43 @@
+---
+title: "Security"
+product: "{{PRODUCT_NAME}}"
+spec_version: "{{SPEC_VERSION}}"
+status: "{{STATUS}}"
+last_reviewed: "{{YYYY-MM-DD}}"
+owners: "{{OWNERS}}"
+---
+
+# Security
+
+<!-- TEMPLATE GUIDANCE: Prepare this page before the GA4GH security and regulatory/ethics reviews; reviewers will expect it. -->
+
+## Threat model summary
+
+| Threat | Impact | Mitigation |
+|---|---|---|
+| {{e.g. Token replay}} | {{Impact}} | {{Mitigation and related requirement ID}} |
+| {{e.g. Re-identification from aggregate responses}} | {{Impact}} | {{Mitigation}} |
+
+## Authentication
+
+- Servers MUST support {{e.g. OAuth 2.0 bearer tokens}}.
+- {{Describe support for GA4GH Passports and AAI, if applicable}}
+
+## Authorisation
+
+{{How access decisions are made, e.g. Passport visas or data use conditions expressed with the Data Use Ontology (DUO).}}
+
+## Transport security
+
+- All endpoints MUST be served over HTTPS using TLS 1.2 or later.
+- {{Additional requirements}}
+
+## Privacy and data protection
+
+- {{Data minimisation requirements}}
+- Logs SHOULD NOT contain personal data or access tokens.
+- {{Alignment with the GA4GH Framework for Responsible Sharing of Genomic and Health-Related Data}}
+
+## Reporting vulnerabilities
+
+Report suspected vulnerabilities privately to {{SECURITY_CONTACT}}. Do not open public issues for security problems. See `SECURITY.md` in the repository root.

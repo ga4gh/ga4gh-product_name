@@ -1,0 +1,54 @@
+---
+title: "{{PRODUCT_NAME}} documentation"
+product: "{{PRODUCT_NAME}}"
+spec_version: "{{SPEC_VERSION}}"
+status: "{{STATUS}}"
+last_reviewed: "{{YYYY-MM-DD}}"
+owners: "{{OWNERS}}"
+---
+
+# {{PRODUCT_NAME}} documentation
+
+<!-- TEMPLATE GUIDANCE: Keep this page short. It orients readers and routes them to the right page; detail lives elsewhere. -->
+
+{{PRODUCT_NAME}} ({{PRODUCT_SHORT_NAME}}) is a GA4GH standard for {{ONE_LINE_PURPOSE}}. This site contains the normative specification, guidance for implementers and the governance record for the product.
+
+## At a glance
+
+| Item | Value |
+|---|---|
+| Current version | {{SPEC_VERSION}} |
+| Status | {{STATUS}} |
+| Work Stream | {{WORK_STREAM}} |
+| Repository | {{REPO_URL}} |
+| Licence | {{LICENSE}} |
+| Contact | {{CONTACT_EMAIL}} |
+
+## Where to start
+
+| If you are... | Start with |
+|---|---|
+| Evaluating whether the standard fits your use case | Overview |
+| Building a server or client | Getting started, then Specification |
+| Deploying or operating a service | Implementer's guide and Security |
+| Proposing a change | Contributing |
+
+## Contents
+
+- [Overview](overview.md)
+- [Getting started](getting-started.md)
+- [Specification](specification/index.md)
+- [Data model](specification/data-model.md)
+- [API reference](specification/api-reference.md)
+- [Security](specification/security.md)
+- [Implementer's guide](implementation/implementers-guide.md)
+- [Implementations](implementation/implementations.md)
+- [Examples](implementation/examples.md)
+- [Compliance and conformance testing](conformance/compliance.md)
+- [Service info](conformance/service-info.md)
+- [Versioning and deprecation](governance/versioning.md)
+- [Changelog](governance/changelog.md)
+- [Product approval record](governance/product-approval.md)
+- [Decision record template](governance/decision-records/adr-template.md)
+- [Contributing](contributing.md)
+- [Glossary](glossary.md)

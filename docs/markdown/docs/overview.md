@@ -1,0 +1,54 @@
+---
+title: "Overview"
+product: "{{PRODUCT_NAME}}"
+spec_version: "{{SPEC_VERSION}}"
+status: "{{STATUS}}"
+last_reviewed: "{{YYYY-MM-DD}}"
+owners: "{{OWNERS}}"
+---
+
+# Overview
+
+<!-- TEMPLATE GUIDANCE: Non-normative. Explain the product in plain language for someone deciding whether it is relevant to them. Avoid MUST/SHOULD here. -->
+
+## Purpose
+
+{{Describe the problem this standard solves, who has that problem, and why a shared standard is better than local solutions.}}
+
+## Scope
+
+### In scope
+
+- {{Capability or data type covered}}
+- {{Capability or data type covered}}
+
+### Out of scope
+
+- {{Explicitly excluded capability, and where it is handled instead if anywhere}}
+
+## Use cases
+
+<!-- TEMPLATE GUIDANCE: Trace each use case to a Driver Project or real deployment where possible. -->
+
+| ID | Use case | Primary actor | Driver Project |
+|---|---|---|---|
+| UC-01 | {{Short description}} | {{e.g. Researcher, Data steward}} | {{Project name}} |
+| UC-02 | {{Short description}} | {{Actor}} | {{Project name}} |
+
+## Audiences
+
+- **Implementers** building servers, clients or libraries
+- **Deployers** operating services in production
+- **Data consumers** querying or retrieving data through compliant services
+
+## Relationship to other GA4GH standards
+
+| Standard | Relationship |
+|---|---|
+| {{e.g. GA4GH Passports}} | {{e.g. Used to convey a requester's data access permissions}} |
+| Service Info | Implementations expose a service-info endpoint; see Service info |
+| {{Standard}} | {{Relationship}} |
+
+## Maturity
+
+This product is currently **{{STATUS}}**. See Versioning and deprecation for the support policy and the Product approval record for its approval history.
