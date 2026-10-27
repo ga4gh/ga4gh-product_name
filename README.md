@@ -16,6 +16,7 @@ Example repo for TASC workshop at EBI# Project Name
 - [Deployment](#deployment)
 - [Contribute](#contribute)
 - [License](#license)
+- [Documentation](#documentation)
 - [Contacts](#contacts)
 
 ---
